@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.sml.shadowview.MainActivity">
+
+    <com.sml.shadowview.ShadowLayout
+        android:layout_width="200dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        app:centerAlpha="medium"
+        app:shadowColor="#D2A45B"
+        app:shadowRadius="20"
+        app:shadowWidth="10">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#D2A45B"
+            android:gravity="center"
+            android:text="00000000000000000000"
+            android:visibility="visible" />
+
+    </com.sml.shadowview.ShadowLayout>
+
+</FrameLayout>

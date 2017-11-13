@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ShadowLayout">
+        <attr name="shadowWidth" format="integer" />
+        <attr name="shadowColor" format="color" />
+        <attr name="shadowRadius" format="integer" />
+        <attr name="centerAlpha" format="integer">
+            <enum name="light" value="100" />
+            <enum name="medium" value="125" />
+            <enum name="heavy" value="255" />
+        </attr>
+    </declare-styleable>
+</resources>
